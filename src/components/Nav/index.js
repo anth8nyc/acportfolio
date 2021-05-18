@@ -7,7 +7,7 @@ function Nav() {
     <nav className="navbar justify-content-md-between justify-content-center d-flex align-items-center pt-3">
        
         <div>
-            <h1 className="mb-0 ml-3"> Anthony Castillo</h1>
+            <h1 className="mb-0"> Anthony Castillo</h1>
         </div>
         
         <div>

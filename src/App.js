@@ -13,8 +13,8 @@ function App() {
   return (
     <Router>
     <div>
-      <Nav/>
       <Wrapper>
+        <Nav/>
         <Route exact path="/" component={About} />
         <Route exact path="/about" component={About} />
         <Route exact path="/work" component={Work} />
