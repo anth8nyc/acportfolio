@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -75,10 +78,19 @@ nav h1 {
 
 
 /* Sets font color to white for site nav bar links */
-a {
+nav a.nav-link {
+  display: inline;
   color: #ffffff;
   text-decoration: none;
   margin: 5px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+a, a.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
 a:hover{
