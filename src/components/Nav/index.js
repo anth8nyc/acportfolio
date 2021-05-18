@@ -10,7 +10,7 @@ function Nav() {
             <h1 className="mb-0 ml-3"> Anthony Castillo</h1>
         </div>
         
-        <div className="text-decoration-none">
+        <div>
         <Link
               to="/work"
               className={window.location.pathname === "/work" ? "nav-link active " : "nav-link"}

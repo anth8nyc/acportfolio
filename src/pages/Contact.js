@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../components/images/Resume_A.CastilloC.pdf"
 
 function Work() {
   return (
@@ -25,7 +26,7 @@ function Work() {
               className="text-danger align-self-center"
               target="_blank"
               rel="noopener noreferrer"
-              href="assets/Resume_A.CastilloC.pdf"
+              href={Resume}
             >
               Resume
             </a>{" "}

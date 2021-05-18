@@ -1,4 +1,5 @@
 import React from "react";
+import self from "../components/images/self.JPG";
 
 function Nav() {
 
@@ -24,7 +25,8 @@ function Nav() {
                         </p>
                     </div>
                     <div className ="col-7 col-md-3 m-5">
-                        <img className ="img-fluid rounded" id= "me" src="assets/images/self.JPG" alt="Profile"/>
+                        <img className ="img-fluid rounded" id= "me" src={self} alt="Profile"/>
+                        {/* <img className ="img-fluid rounded" id= "me" src="assets/images/self.JPG" alt="Profile"/> */}
                     </div>
                 </div>
             </div>

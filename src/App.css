@@ -36,3 +36,224 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --sfly:rgb(143, 176, 187);
+  --ssky: lightblue;
+  --sblue: rgb(160, 60, 77);
+  --ssun: rgb(175, 46, 59);
+  --alignment: 40px;
+}
+
+/* Standardizes padding and margin behavior for entire site */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Sets entire portfolio background color */
+body {
+  background-color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+nav {
+  background-color: var(--sfly);
+  color: #ffffff;
+  border-radius: 25px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Sets font size for my name on nav bar and ensures letters are all displayed in line */
+nav h1 {
+  font-size: 30px;
+}
+
+
+/* Sets font color to white for site nav bar links */
+a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px;
+}
+
+a:hover{
+
+  color: var(--ssun);
+  text-decoration: none;
+
+}
+
+/* Sets font size for all regular text on site */
+p {
+  font-size: 16px;
+  text-indent: 40px;
+}
+
+main {
+
+  margin-top: 2%;
+
+}
+
+/* Standardizes the color and sizes of all main content cards and contained text*/
+main section {
+  font-family: sans-serif;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Standardizes content card appearance */
+main section.contentcard {
+  background-color: #d9dcd6a9;
+  color: #000000;
+  border-style: inset;
+  border-width: 1px;
+}
+
+
+/* Creates image border effects */
+main section.contentcard img {
+  border-radius: 20px;
+  border-style: inset;
+  overflow: hidden;
+  height: 150px;
+}
+
+/* Creates opacity hover effect */
+main .contentcard img.prv:hover {
+  opacity: .35;
+}
+
+/* Both below standardize header styles */
+main .titlecard {
+  color: #000000;
+  border-bottom-style: solid;
+  border-bottom-color:var(--ssky);
+  
+}
+
+main h2 {
+  font-size: 26px;
+  text-align: center;
+}
+
+/* Establishes footer spacing and font */
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Sets footer heading text size */
+footer h2 {
+  font-size: 20px;
+}
+
+
+.worklink {
+  position: relative;
+  margin: 15px 0px;
+}
+
+.prv {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.worktitle {
+  background-color: var(--ssun);
+  color: white;
+  font-size: 12px;
+  padding: 10px 16px;
+  border-radius: 25px;
+}
+
+
+@media (min-width: 768px) { 
+
+  main .titlecard {
+    color: #000000;
+    border-right-style: solid;
+    border-right-color:var(--ssky);
+    margin: 20px 2px 0px 50px;
+    border-bottom-style: none;
+  
+  }
+
+  main h2 {
+    font-size: 26px;
+    text-align: right;
+  }
+
+
+
+  .worklink {
+    position: relative;
+    margin: 0px;
+  }
+  
+  .prv {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-style: none;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .worklink:hover .prv {
+    opacity: 0.3;
+  }
+  
+  .worklink:hover .middle {
+    opacity: 1;
+  }
+  
+  .worktitle {
+    background-color: var(--ssun);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 25px;
+  }
+
+  #me {
+    border-style: none;
+    border-radius: .50rem!important;
+  }
+
+}
