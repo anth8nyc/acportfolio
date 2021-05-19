@@ -6,8 +6,8 @@ import schedulerdem from "../components/images/projectpreviews/schedulerdem.png"
 import quizami from "../components/images/projectpreviews/quizami.png"
 import userdirect from "../components/images/projectpreviews/userdirect.png"
 import fittrackdem from "../components/images/projectpreviews/fittrackdem.png"
-import * as Scroll from 'react-scroll';
-import { Events } from 'react-scroll'
+// import * as Scroll from 'react-scroll';
+// import { Events } from 'react-scroll'
 
 
 // let prevRatio = 0.0;
