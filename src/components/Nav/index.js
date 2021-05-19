@@ -14,21 +14,15 @@ function Nav() {
         <Link
               to="/work"
               className={window.location.pathname === "/work" ? "nav-link active " : "nav-link"}
-            >
-              Work
-            </Link>
+            >Work</Link>
         <Link
               to="/about"
               className={window.location.pathname === "/about" ? "nav-link active " : "nav-link"}
-            >
-              About Me
-            </Link>
+            >About</Link>
         <Link
               to="/contact"
               className={window.location.pathname === "/contact" ? "nav-link active " : "nav-link"}
-            >
-              Contact
-            </Link>
+            >Contact</Link>
         </div>
     </nav>
   );

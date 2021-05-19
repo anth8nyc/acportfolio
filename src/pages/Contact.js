@@ -4,7 +4,7 @@ import Resume from "../components/images/Resume_A.CastilloC.pdf"
 function Work() {
   return (
     <>
-      <div className="row justify-content-around justify-content-md-start">
+      <div className="row justify-content-around justify-content-md-center">
         <div className="titlecard col-md-2 col-10 p-3">
           <h2 id="contact">Contact</h2>
         </div>

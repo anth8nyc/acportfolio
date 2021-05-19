@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 
 :root {
   --sfly:rgb(143, 176, 187);
   --ssky: lightblue;
+  --swater: rgb(47, 49, 108);
   --sblue: rgb(160, 60, 77);
   --ssun: rgb(175, 46, 59);
   --alignment: 40px;
@@ -29,6 +30,8 @@ nav {
   margin: 20px;
   font-size: 20px;
   text-align: center;
+  padding-left: 1rem!important;
+  padding-right: 1rem!important;
 }
 
 /* Sets font size for my name on nav bar and ensures letters are all displayed in line */
@@ -52,6 +55,13 @@ a, a.nav-link {
   text-decoration: none;
   margin: 5px;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  padding: 0px;
+}
+.nav-link:active, .nav-link:focus {
+  color: var(--ssun);
+}
+.nav-link:hover {
+  color: var(--swater);
 }
 
 a:hover{
@@ -159,7 +169,7 @@ footer h2 {
   background-color: var(--ssun);
   color: white;
   font-size: 12px;
-  padding: 10px 16px;
+  padding: 10px;
   border-radius: 25px;
 }
 
@@ -170,7 +180,7 @@ footer h2 {
     color: #000000;
     border-right-style: solid;
     border-right-color:var(--ssky);
-    margin: 20px 2px 0px 50px;
+    margin: 20px 2px 0px 0px;
     border-bottom-style: none;
   
   }
