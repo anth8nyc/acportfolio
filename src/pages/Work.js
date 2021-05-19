@@ -6,8 +6,10 @@ import schedulerdem from "../components/images/projectpreviews/schedulerdem.png"
 import quizami from "../components/images/projectpreviews/quizami.png"
 import userdirect from "../components/images/projectpreviews/userdirect.png"
 import fittrackdem from "../components/images/projectpreviews/fittrackdem.png"
+import * as Scroll from 'react-scroll';
+import { Events } from 'react-scroll'
 
-// const numSteps = 25.0;
+
 // let prevRatio = 0.0;
 
 // let prvImgElement;
@@ -36,31 +38,27 @@ import fittrackdem from "../components/images/projectpreviews/fittrackdem.png"
         
 //     } else { 
         
-//         removeObservers();
+//       removeObservers();
 
-//         document.addEventListener('scroll', function(e){
-//           if(e.currentTarget.dataset.triggered) return;
-//           e.currentTarget.dataset.triggered = true;
-//           prvImgElement.forEach(prvImgElements => {
-//             prvImgElements.style.opacity = 1
+        
+//       Events.scrollEvent.register('begin', function() {
+//         prvImgElement.forEach(prvImgElements => {
+//           prvImgElements.style.opacity = 1
 //         });
-//       })
-
+//       });
+      
 //     }
 // })
 
 // function scrollerHover () {
     
-//     window.addEventListener("scroll", (event) => {createObservers();}, false);
+//   window.addEventListener("scroll", (event) => {createObservers();}, false);
     
-    
-//     document.addEventListener('scroll', function(e){
-//       if(e.currentTarget.dataset.triggered) return;
-//       e.currentTarget.dataset.triggered = true;
-//       prvImgElement.forEach(prvImgElements => {
-//         prvImgElements.style.opacity = .3
+//   Events.scrollEvent.register('begin', function() {
+//     prvImgElement.forEach(prvImgElements => {
+//       prvImgElements.style.opacity = .3
 //     });
-//   })
+//   });
     
 // }
   
