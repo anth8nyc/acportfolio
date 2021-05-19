@@ -7,7 +7,7 @@ function Nav() {
         <div className="row my-3 justify-content-around justify-content-md-center">
                             
             <div className="titlecard col-md-2 col-10 p-3">
-                <h2 id="aboutme" >About</h2>
+                <h2 id="aboutme">About</h2>
             </div>
             
             <div className="col-md-9 col-10 contentcard pt-4">
@@ -26,7 +26,6 @@ function Nav() {
                     </div>
                     <div className ="col-7 col-md-3 m-5">
                         <img className ="img-fluid rounded" id= "me" src={self} alt="Profile"/>
-                        {/* <img className ="img-fluid rounded" id= "me" src="assets/images/self.JPG" alt="Profile"/> */}
                     </div>
                 </div>
             </div>
