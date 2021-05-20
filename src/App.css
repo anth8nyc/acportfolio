@@ -57,6 +57,19 @@ a, a.nav-link {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   padding: 0px;
 }
+
+.worksites {
+  /* font-style: italic; */
+  background-color: #ffffff;
+  color: var(--ssun);
+  border-radius: 25px;
+  text-align: center;
+  margin: 20px;
+  padding-left: 1rem!important;
+  padding-right: 1rem!important;
+  padding-top: .5rem!important;
+  padding-bottom: .25rem!important;
+}
 .nav-link:active, .nav-link:focus {
   color: var(--ssun);
 }
@@ -64,11 +77,15 @@ a, a.nav-link {
   color: var(--swater);
 }
 
-a:hover{
-
+nav a:hover{
   color: var(--ssun);
   text-decoration: none;
+}
 
+.worksites:hover{
+  color: #ffffff;
+  text-decoration: none;
+  background-color: var(--ssun);
 }
 
 /* Sets font size for all regular text on site */

@@ -1,10 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 function Worklink(props) {
   return (
     <>
       <div className="col-md-4 col-12 worklink">
-        <a href={props.href} target="_blank" rel="noopener noreferrer">
+        <Link
+              to={props.href}
+              className={window.location.pathname === "/work/id" ? "nav-link active " : "nav-link"}
+            >
           <img
             className="rounded prv img-fluid"
             src={props.src}
@@ -13,7 +18,7 @@ function Worklink(props) {
           <div className="middle">
             <h3 className="worktitle">{props.title}</h3>
           </div>
-        </a>
+        </Link>
       </div>
     </>
   );

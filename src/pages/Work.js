@@ -6,6 +6,8 @@ import schedulerdem from "../components/images/projectpreviews/schedulerdem.png"
 import quizami from "../components/images/projectpreviews/quizami.png"
 import userdirect from "../components/images/projectpreviews/userdirect.png"
 import fittrackdem from "../components/images/projectpreviews/fittrackdem.png"
+import { Link } from "react-router-dom";
+
 // import * as Scroll from 'react-scroll';
 // import { Events } from 'react-scroll'
 
@@ -161,17 +163,25 @@ function Work() {
                 
           <div className="row">
               
-            <Worklink href="https://anth8nyc.github.io/MoonPhases/" src={moonphaserdemo} alt="Preview of MoonPhaser Project" title="MoonPhaser"></Worklink>
-            <Worklink href="https://anth8nyc.github.io/weatherapp/"  src={weatherapp} alt="Preview of Weather Dashboard" title="Weather Dashboard"></Worklink>
-            <Worklink href="https://polar-headland-03677.herokuapp.com/" src={quizami} alt="Preview of Quizami collaborative project" title="Quizami"></Worklink>
+            {/* <Link
+              to="/work/:id"
+              className={window.location.pathname === "/moonphaser" ? "nav-link active " : "nav-link"}
+            >
+              <Worklink href="https://anth8nyc.github.io/MoonPhases/" src={moonphaserdemo} alt="Preview of MoonPhaser Project" title="MoonPhaser"></Worklink>
+
+            </Link> */}
+
+            <Worklink href="/work/1" src={moonphaserdemo} alt="Preview of MoonPhaser Project" title="MoonPhaser"></Worklink>
+            <Worklink href="/work/2"  src={weatherapp} alt="Preview of Weather Dashboard" title="Weather Dashboard"></Worklink>
+            <Worklink href="/work/3" src={quizami} alt="Preview of Quizami collaborative project" title="Quizami"></Worklink>
                     
           </div>   
 
           <div className="row">
 
-            <Worklink href="https://anth8nyc.github.io/workdaysched/" src={schedulerdem} alt="Preview of Work Day Scheduler" title="Work Day Scheduler"></Worklink>
-            <Worklink href="https://anth8nyc.github.io/userdirectory/"  src={userdirect} alt="Preview of Employee User Directory" title="Employee User Directory"></Worklink>
-            <Worklink href="https://hidden-falls-38045.herokuapp.com/" src={fittrackdem} alt="Preview of Fitness Tracker" title="Fitness Tracker"></Worklink>
+            <Worklink href="work/4" src={schedulerdem} alt="Preview of Work Day Scheduler" title="Work Day Scheduler"></Worklink>
+            <Worklink href="work/5"  src={userdirect} alt="Preview of Employee User Directory" title="Employee User Directory"></Worklink>
+            <Worklink href="work/6" src={fittrackdem} alt="Preview of Fitness Tracker" title="Fitness Tracker"></Worklink>
                     
           </div>    
 
