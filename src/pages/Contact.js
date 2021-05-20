@@ -1,7 +1,7 @@
 import React from "react";
 import Resume from "../components/images/Resume_A.CastilloC.pdf";
 
-function Work() {
+function Contact() {
   return (
     <>
       <div className="row justify-content-around justify-content-md-center">
@@ -55,4 +55,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default Contact;

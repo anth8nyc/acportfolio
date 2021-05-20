@@ -23,6 +23,11 @@ body {
 
 }
 
+footer, footer a {
+  font-family: 'Josefin Sans', sans-serif;
+  color: var(--ssun);
+}
+
 nav {
   background-color: var(--sfly);
   color: #ffffff;
@@ -95,9 +100,7 @@ p {
 }
 
 main {
-
   margin-top: 2%;
-
 }
 
 /* Standardizes the color and sizes of all main content cards and contained text*/
