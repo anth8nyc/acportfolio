@@ -2,7 +2,7 @@ import React from "react";
 import Worklink from "../components/Worklink"
 import moonphaserdemo from "../components/images/projectpreviews/moonphaserdemo.png"
 import weatherapp from "../components/images/projectpreviews/weatherapp.png"
-import schedulerdem from "../components/images/projectpreviews/schedulerdem.png"
+import gbookdem from "../components/images/projectpreviews/gbookdemo.png"
 import quizami from "../components/images/projectpreviews/quizami.png"
 import userdirect from "../components/images/projectpreviews/userdirect.png"
 import fittrackdem from "../components/images/projectpreviews/fittrackdem.png"
@@ -162,7 +162,7 @@ function Work() {
             <Worklink href="/work/3" src={quizami} alt="Preview of Quizami collaborative project" title="Quizami"></Worklink>
           </div>   
           <div className="row">
-            <Worklink href="work/4" src={schedulerdem} alt="Preview of Work Day Scheduler" title="Work Day Scheduler"></Worklink>
+            <Worklink href="work/4" src={gbookdem} alt="Preview of Google Books Reading List" title="Google Books React Reading List"></Worklink>
             <Worklink href="work/5"  src={userdirect} alt="Preview of Employee User Directory" title="Employee User Directory"></Worklink>
             <Worklink href="work/6" src={fittrackdem} alt="Preview of Fitness Tracker" title="Fitness Tracker"></Worklink> 
           </div>    

@@ -4,6 +4,7 @@ import schedulerdem from "../components/images/projectpreviews/schedulerdem.png"
 import quizamidem from "../components/images/projectpreviews/quizami.png";
 import userdirectdem from "../components/images/projectpreviews/userdirect.png";
 import fittrackdem from "../components/images/projectpreviews/fittrackdem.png"
+import gbookdem from "../components/images/projectpreviews/gbookdemo.png"
 
 const WorkInfo = [
     
@@ -36,12 +37,12 @@ const WorkInfo = [
     },
     { 
         id: 4, 
-        href: "https://anth8nyc.github.io/workdaysched/", 
-        title: "Work Day Scheduler", 
-        src: schedulerdem, 
-        alt: "Preview of Work Day Scheduler", 
-        ghref: "https://github.com/anth8nyc/workdaysched.git",
-        info: "An employee with a busy schedule is able to add important events to a daily planner that does not lose data on page refresh after event submission to assist in effective time management. The current day is displayed at the top of the planner along with timeblocks for each hour of the standard business day. The timeblocks for each hour are color coded to indicate whether the hour is in the past, present, or future. The save button to the right of each timeblock will save whatever text is inputted to the color coded blocks to the local storage correlated for that timeblock." 
+        href: "https://googlebookstoread.herokuapp.com/", 
+        title: "Google Books React Reading List", 
+        src: gbookdem, 
+        alt: "Preview of Google Books Reading List", 
+        ghref: "https://github.com/anth8nyc/booksearcher.git",
+        info: "This MERN stack site application allows users to search the Google Books API to then save the result entries that they are interested in to a reading list. The application accomplishes this by saving search results that are rendered through a react state to a MongoDB database. The API routes allow for both saving and deleting to the MongoDB database. Books can be searched on the search page, and are simply saved by selecting 'Save' on result entries. To view and delete unwanted saved books, the 'My Books' page allows for either."
     },
     { 
         id: 5, 
