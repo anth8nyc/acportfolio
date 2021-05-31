@@ -193,6 +193,13 @@ footer h2 {
   border-radius: 25px;
 }
 
+.contactLinks {
+  color: var(--ssun);
+}
+
+.contactLinks:hover {
+  color: var(--swater);
+}
 
 @media (min-width: 768px) { 
 

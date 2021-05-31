@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <p>
         <a
-          className="align-self-center"
+          className="contactLinks align-self-center"
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/anth8nyc"
@@ -15,7 +15,7 @@ function Footer() {
         </a>
         –  ©  –
         <a
-          className="align-self-center"
+          className="contactLinks align-self-center"
           href="mailto:anth8nyc@gmail.com"
           >
           email

@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../components/images/Resume_A.CastilloC.pdf";
+import Resume from "../components/images/AnthonyCastillo.resume.pdf"
 
 function Contact() {
   return (
@@ -11,19 +11,19 @@ function Contact() {
 
         <div className="col-md-9 col-10 p-2 contentcard align-items-center justify-content-center mt-4">
           <div className="p-2 text-center">
-            <a className="text-danger align-self-center" href="tel:4692009850">
+            <a className="contactLinks align-self-center" href="tel:4692009850">
               (469) 200-9850
             </a>{" "}
             |
             <a
-              className="text-danger align-self-center"
+              className="contactLinks align-self-center"
               href="mailto:anthonycastillo821@gmail.com"
             >
               Email: anthonycastillo821@gmail.com
             </a>{" "}
             |
             <a
-              className="text-danger align-self-center"
+              className="contactLinks align-self-center"
               target="_blank"
               rel="noopener noreferrer"
               href={Resume}
@@ -32,7 +32,7 @@ function Contact() {
             </a>{" "}
             |
             <a
-              className="text-danger align-self-center"
+              className="contactLinks align-self-center"
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/anthony-castillo-5b0631158/"
@@ -41,7 +41,7 @@ function Contact() {
             </a>{" "}
             |
             <a
-              className="text-danger align-self-center"
+              className="contactLinks align-self-center"
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/anth8nyc"
