@@ -38,11 +38,14 @@ mq.addEventListener( "change", (e) => {
     } else { 
         
       removeObservers();  
+      
       document.addEventListener('scroll', function() {
         prvImgElement.forEach(prvImgElements => {
             prvImgElements.style.opacity = 1
         });
-    });
+      },{
+        once: true,
+      });
       
     }
 })
@@ -55,6 +58,8 @@ function scrollerHover () {
     prvImgElement.forEach(prvImgElements => {
         prvImgElements.style.opacity = .3
     });
+  },{
+    once: true,
   });
     
 }
@@ -143,7 +148,7 @@ function handleTitleIntersect(entries, observer) {
 
     });
 }
-
+// 
 function Work() {
 
   return ( 
