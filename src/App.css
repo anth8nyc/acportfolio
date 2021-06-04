@@ -201,6 +201,12 @@ footer h2 {
   color: var(--swater);
 }
 
+.btc{
+  border-top: var(--ssky);
+  border-top-style: solid;
+  padding-top: 15px;
+}
+
 @media (min-width: 768px) { 
 
   main .titlecard {
