@@ -25,7 +25,7 @@ const WorkInfo = [
         src: weatherappdem, 
         alt: "Preview of Weather Dashboard", 
         ghref: "https://github.com/anth8nyc/weatherapp.git",
-        techs: "APIs, Local Storage, Node Package Manager",
+        techs: "APIs, Node Package Manager, Bootstrap",
         info: "This web application was designed to allow users to search the site for weather data in different cities. The site was designed to assist in exercising how to handle weather information gathered from multiple APIs within one page. The site also stores recently searched cities and allows for easy recall of the weather information for these cities. The site was designed to include Moment.js in order to exercise the usage of  Moment.js with site data. Current forecasts display the UV index for the current time of the city in a color coded range for low, medium, and high UV index values." 
     },
     { 

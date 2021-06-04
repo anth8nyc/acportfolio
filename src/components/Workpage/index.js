@@ -40,7 +40,8 @@ function Workpage() {
                             <a className="mx-auto worksites" href={chosenwork.href} target="_blank" rel="noopener noreferrer"> Deployed Site</a>
                             <a className="mx-auto worksites" href={chosenwork.ghref} target="_blank" rel="noopener noreferrer"> GitHub Repository</a>
                         </div>
-                        <div className="btc"><p>Concepts utilized: {chosenwork.techs}</p>
+                        <div>
+                            <p className="btc">Concepts utilized: {chosenwork.techs}</p>
                         </div>
                     </div>
                     
