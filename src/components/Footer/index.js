@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
 
@@ -14,12 +15,7 @@ function Footer() {
           anth8nyc
         </a>
         –  ©  –
-        <a
-          className="contactLinks align-self-center"
-          href="mailto:anth8nyc@gmail.com"
-          >
-          email
-        </a>
+        <Link to="/contact" className="contactLinks">contact</Link>
       </p>
     </footer>
   );

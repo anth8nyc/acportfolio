@@ -20,7 +20,6 @@
 body {
   background-color: #ffffff;
   font-family: 'Josefin Sans', sans-serif;
-
 }
 
 footer, footer a {
@@ -44,7 +43,6 @@ nav h1 {
   font-size: 30px;
   margin-left: 1rem!important;
 }
-
 
 /* Sets font color to white for site nav bar links */
 nav a.nav-link {
@@ -75,6 +73,14 @@ a, a.nav-link {
   padding-top: .5rem!important;
   padding-bottom: .25rem!important;
 }
+.aboutlink {
+  color: black;
+}
+.aboutlink:hover{
+  color: var(--ssun);
+  text-decoration: none;
+}
+
 .nav-link:active, .nav-link:focus {
   color: var(--ssun);
 }
@@ -118,7 +124,6 @@ main section.contentcard {
   border-width: 1px;
 }
 
-
 /* Creates image border effects */
 main section.contentcard img {
   border-radius: 20px;
@@ -157,7 +162,6 @@ footer {
 footer h2 {
   font-size: 20px;
 }
-
 
 .worklink {
   position: relative;
@@ -225,8 +229,6 @@ footer h2 {
     text-align: right;
   }
 
-
-
   .worklink {
     position: relative;
     margin: 0px;
@@ -273,5 +275,4 @@ footer h2 {
     border-style: none;
     border-radius: .50rem!important;
   }
-
 }

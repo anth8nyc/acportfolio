@@ -56,7 +56,7 @@ function scrollerHover () {
   // },{
   //   once: true,
   });
-    
+  
 }
   
 function createObservers() {
@@ -82,7 +82,6 @@ function createObservers() {
     workTitleElement.forEach(workTitleElements => {
         titleObserver.observe(workTitleElements);
     });
-
 
 }
 
