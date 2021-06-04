@@ -35,7 +35,7 @@ function Contact() {
               className="contactLinks align-self-center"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/anthony-castillo-5b0631158/"
+              href="https://www.linkedin.com/in/anth8nyc/"
             >
               LinkedIn
             </a>{" "}

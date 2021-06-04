@@ -20,26 +20,26 @@ workTitleElement = document.querySelectorAll(".middle");
 if (mq.matches) {
 
   scrollerHover();
-  console.log("mobile load")
+  console.log("mobile load - worklink/index.js")
 
 }
 else { }
 // Fired if window width has changed
 mq.addEventListener( "change", (e) => {
     if (e.matches) {
-        console.log('Calling scrollerHover from page change')
+        console.log('Calling scrollerHover from page change - worklink/idex.js')
         scrollerHover();
         
     } else { 
         
-      removeObservers();  
+      // removeObservers();  
       
       document.addEventListener('scroll', function() {
         prvImgElement.forEach(prvImgElements => {
             prvImgElements.style.opacity = 1
         });
-      },{
-        once: true,
+      // },{
+      //   once: true,
       });
       
     }
@@ -53,8 +53,8 @@ function scrollerHover () {
     prvImgElement.forEach(prvImgElements => {
         prvImgElements.style.opacity = .3
     });
-  },{
-    once: true,
+  // },{
+  //   once: true,
   });
     
 }
@@ -72,16 +72,17 @@ function createObservers() {
     };
   
     prvObserver = new IntersectionObserver(handleIntersect, options);
-    console.log(prvObserver)
+    // console.log(prvObserver)
     prvImgElement.forEach(prvImgElements => {
         prvObserver.observe(prvImgElements);
     });
     
     titleObserver = new IntersectionObserver(handleTitleIntersect, titleOptions);
-    console.log(titleObserver)
+    // console.log(titleObserver)
     workTitleElement.forEach(workTitleElements => {
         titleObserver.observe(workTitleElements);
     });
+
 
 }
 

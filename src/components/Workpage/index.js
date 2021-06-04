@@ -8,11 +8,11 @@ import WorkInfo from "../../WorkInfo/WorkInfo";
 function Workpage() {
     
     const {id} = useParams();
-    console.log(id)
-    let chosework = WorkInfo.filter(work => work.id === id);
+    // console.log(id)
+    // let chosework = WorkInfo.filter(work => work.id === id);
     let chosenwork = WorkInfo[id-1];
-    console.log(chosenwork);
-    console.log(chosework);
+    // console.log(chosenwork);
+    // console.log(chosework);
 
   return ( <>  
         <div className="row my-3 justify-content-around justify-content-md-center">
@@ -40,6 +40,14 @@ function Workpage() {
                             <a className="mx-auto worksites" href={chosenwork.href} target="_blank" rel="noopener noreferrer"> Deployed Site</a>
                             <a className="mx-auto worksites" href={chosenwork.ghref} target="_blank" rel="noopener noreferrer"> GitHub Repository</a>
                         </div>
+                        {/* <div><p>Foundational Concepts:</p>
+                        <ul>
+                            <li>React</li>
+                            <li>Moongoose (NoSQL)</li>
+                            <li>Third Party APIs</li>
+                            <li>Local Storage</li>
+                        </ul>
+                        </div> */}
                     </div>
                     
                 </div>
