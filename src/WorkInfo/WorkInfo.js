@@ -30,7 +30,7 @@ const WorkInfo = [
     },
     { 
         id: 3, 
-        href: "https://polar-headland-03677.herokuapp.com/", 
+        href: "https://quizami.herokuapp.com/", 
         title: "Quizami", 
         src: quizamidem, 
         alt: "Preview of Quizami collaborative project", 
