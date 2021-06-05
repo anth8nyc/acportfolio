@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/acportfolio/static/css/main.05a13235.chunk.css",
-    "main.js": "/acportfolio/static/js/main.520ff4ee.chunk.js",
-    "main.js.map": "/acportfolio/static/js/main.520ff4ee.chunk.js.map",
+    "main.js": "/acportfolio/static/js/main.f16a5a0e.chunk.js",
+    "main.js.map": "/acportfolio/static/js/main.f16a5a0e.chunk.js.map",
     "runtime-main.js": "/acportfolio/static/js/runtime-main.7265e5d7.js",
     "runtime-main.js.map": "/acportfolio/static/js/runtime-main.7265e5d7.js.map",
     "static/css/2.61b4cb56.chunk.css": "/acportfolio/static/css/2.61b4cb56.chunk.css",
@@ -22,13 +22,13 @@
     "static/media/schedulerdem.16ff6072.png": "/acportfolio/static/media/schedulerdem.16ff6072.png",
     "static/media/self.71fc439a.JPG": "/acportfolio/static/media/self.71fc439a.JPG",
     "static/media/userdirect.556cba71.png": "/acportfolio/static/media/userdirect.556cba71.png",
-    "static/media/weatherapp.9fa49c94.png": "/acportfolio/static/media/weatherapp.9fa49c94.png"
+    "static/media/weatherapp.8d35dee3.png": "/acportfolio/static/media/weatherapp.8d35dee3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7265e5d7.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.feab1fa4.chunk.js",
     "static/css/main.05a13235.chunk.css",
-    "static/js/main.520ff4ee.chunk.js"
+    "static/js/main.f16a5a0e.chunk.js"
   ]
 }
