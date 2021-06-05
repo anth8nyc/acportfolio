@@ -24,7 +24,7 @@ function Nav() {
                         </p>
                         <p>
                             Web development is becoming like any verbal language we might speak– important for expression, 
-                            knowledge, culture, and therefore love– so I'm pasionate about learning to speak it better. Thus far, my strengths lie
+                            knowledge, culture, and therefore love– so I'm passionate about learning to speak it better. Thus far, my strengths lie
                             in the algorithmic nature of front end logic, the RESTful management of custom API and third party API routing, refactoring code
                             for optimization, React.js, and front end CSS frameworks. The rest of my passions lie in learning about sociology, rock climbing the outdoors,
                             and sharing music with my friends in any possible sense of the word.<Link to="/contact" className="aboutlink">Reach out to me</Link>– I'm excited to meet you.
