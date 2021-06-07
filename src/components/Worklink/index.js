@@ -85,20 +85,20 @@ function createObservers() {
 
 }
 
-function removeObservers() {
+// function removeObservers() {
    
-    if (prvObserver !== undefined) {
+//     if (prvObserver !== undefined) {
         
-        prvImgElement.forEach(prvImgElements => {
-            prvObserver.unobserve(prvImgElements);
-        });
+//         prvImgElement.forEach(prvImgElements => {
+//             prvObserver.unobserve(prvImgElements);
+//         });
         
-        workTitleElement.forEach(workTitleElements => {
-            titleObserver.unobserve(workTitleElements);
-        });
+//         workTitleElement.forEach(workTitleElements => {
+//             titleObserver.unobserve(workTitleElements);
+//         });
 
-    }
-}
+//     }
+// }
 
 function buildThresholdList() {
     let thresholds = [];

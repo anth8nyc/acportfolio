@@ -1,6 +1,6 @@
 import React from "react";
 import Worklink from "../components/Worklink"
-import moonphaserdemo from "../components/images/projectpreviews/moonphaserdemo.png"
+import mulletdemo from "../components/images/projectpreviews/mulletdemo.png"
 import weatherapp from "../components/images/projectpreviews/weatherapp.png"
 import gbookdem from "../components/images/projectpreviews/gbookdemo.png"
 import quizami from "../components/images/projectpreviews/quizami.png"
@@ -90,20 +90,20 @@ function createObservers() {
 
 }
 
-function removeObservers() {
+// function removeObservers() {
    
-    if (prvObserver !== undefined) {
+//     if (prvObserver !== undefined) {
         
-        prvImgElement.forEach(prvImgElements => {
-            prvObserver.unobserve(prvImgElements);
-        });
+//         prvImgElement.forEach(prvImgElements => {
+//             prvObserver.unobserve(prvImgElements);
+//         });
         
-        workTitleElement.forEach(workTitleElements => {
-            titleObserver.unobserve(workTitleElements);
-        });
+//         workTitleElement.forEach(workTitleElements => {
+//             titleObserver.unobserve(workTitleElements);
+//         });
 
-    }
-}
+//     }
+// }
 
 function buildThresholdList() {
     let thresholds = [];
@@ -162,7 +162,7 @@ function Work() {
         <div className="col-md-9 col-10 contentcard pt-4"> 
                 
           <div className="row">
-            <Worklink href="/work/1" src={moonphaserdemo} alt="Preview of MoonPhaser Project" title="MoonPhaser"></Worklink>
+            <Worklink href="/work/1" src={mulletdemo} alt="Preview of Mullet Events Project" title="Mullet Events"></Worklink>
             <Worklink href="/work/2"  src={weatherapp} alt="Preview of Weather Dashboard" title="Weather Dashboard"></Worklink>
             <Worklink href="/work/3" src={quizami} alt="Preview of Quizami collaborative project" title="Quizami"></Worklink>
           </div>   

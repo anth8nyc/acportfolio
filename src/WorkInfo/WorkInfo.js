@@ -1,6 +1,7 @@
-import moonphaserdemo from "../components/images/projectpreviews/moonphaserdemo.png";
+import mulletdemo from "../components/images/projectpreviews/mulletdemo.png";
+// import moonphaserdemo from "../components/images/projectpreviews/moonphaserdemo.png";
 import weatherappdem from "../components/images/projectpreviews/weatherapp.png";
-import schedulerdem from "../components/images/projectpreviews/schedulerdem.png";
+// import schedulerdem from "../components/images/projectpreviews/schedulerdem.png";
 import quizamidem from "../components/images/projectpreviews/quizami.png";
 import userdirectdem from "../components/images/projectpreviews/userdirect.png";
 import fittrackdem from "../components/images/projectpreviews/fittrackdem.png"
@@ -8,15 +9,25 @@ import gbookdem from "../components/images/projectpreviews/gbookdemo.png"
 
 const WorkInfo = [
     
+    // { 
+    //     id: 1, 
+    //     href: "https://anth8nyc.github.io/MoonPhases/", 
+    //     title: "MoonPhaser", 
+    //     src: moonphaserdemo, 
+    //     alt: "Preview of MoonPhaser Project", 
+    //     ghref: "https://github.com/anth8nyc/MoonPhases.git",
+    //     techs: "APIs, Bootstrap, Node.js, Local Storage, Moment.js, jQuery",
+    //     info: "MoonPhaser was a collaborative project intent on using Moon phase data from an API as well as information from the NASA Astronomy Picture of the Day (APOD) API to design a web application aimed at piquing interest in the constantly changing information from space. After finding the farmsense API, the User Story was refined to designing a site that allowed a user to view Moon phase information for any given day they might input- and to record recently searched dates in order to more easily compare similar dates across time, such as a birthdays or anniversaries. We decided to generate the NASA APOD from its respective API upon page load as it was the most astronomy beginner friendly API of the many APIs NASA offers." 
+    // },
     { 
         id: 1, 
-        href: "https://anth8nyc.github.io/MoonPhases/", 
-        title: "MoonPhaser", 
-        src: moonphaserdemo, 
-        alt: "Preview of MoonPhaser Project", 
-        ghref: "https://github.com/anth8nyc/MoonPhases.git",
-        techs: "APIs, Bootstrap, Node.js, Local Storage, Moment.js, jQuery",
-        info: "MoonPhaser was a collaborative project intent on using Moon phase data from an API as well as information from the NASA Astronomy Picture of the Day (APOD) API to design a web application aimed at piquing interest in the constantly changing information from space. After finding the farmsense API, the User Story was refined to designing a site that allowed a user to view Moon phase information for any given day they might input- and to record recently searched dates in order to more easily compare similar dates across time, such as a birthdays or anniversaries. We decided to generate the NASA APOD from its respective API upon page load as it was the most astronomy beginner friendly API of the many APIs NASA offers." 
+        href: "https://mullet-events.herokuapp.com/", 
+        title: "Mullet Events", 
+        src: mulletdemo, 
+        alt: "Preview of Mullet Events Project", 
+        ghref: "https://github.com/cstuhlfire/EventPlanner.git",
+        techs: "MongoDB, Express.js, React.js, Node.js, Bulma Framework",
+        info: "The Mullet Events application will allows to create and manage events. Users can both host and sign up to attend events. Events have action lists that contain action items. The action lists are used to manage tasks and to do lists that attendees can view and manage. The centralized planning tools of Mullet Events allow users to share the work of planning successful parties and events."
     },
     { 
         id: 2, 
