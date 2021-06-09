@@ -27,7 +27,7 @@ const WorkInfo = [
         alt: "Preview of Mullet Events Project", 
         ghref: "https://github.com/cstuhlfire/EventPlanner.git",
         techs: "MongoDB, Express.js, React.js, Node.js, Bulma Framework",
-        info: "The Mullet Events application will allows to create and manage events. Users can both host and sign up to attend events. Events have action lists that contain action items. The action lists are used to manage tasks and to do lists that attendees can view and manage. The centralized planning tools of Mullet Events allow users to share the work of planning successful parties and events."
+        info: "The Mullet Events application allows users to create and manage events. Users can both host and sign up to attend events. Events have action lists that contain action items. The action lists are used to manage tasks and to do lists that attendees can view and manage. The centralized planning tools of Mullet Events allow users to share the work of planning successful parties and events."
     },
     { 
         id: 2, 
